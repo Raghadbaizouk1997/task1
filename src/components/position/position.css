@@ -1,0 +1,9 @@
+.position {
+    display: none; /* Hide the component by default */
+}
+
+@media only screen and (max-width: 768px) {
+    .position {
+        display: block; /* Show the component on screens with a width of 768px or less */
+    }
+}
